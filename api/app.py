@@ -13,6 +13,12 @@ def weekly_planning():
     openai_key = data.get('openai_key')
     goals = data.get('goals')
 
+    # Example request data:
+    # {
+    #     "openai_key": "sk-your-openai-api-key",
+    #     "goals": ["Complete project report", "Attend team meeting", "Review client feedback"]
+    # }
+
     # TODO: Set OpenAI key and implement goal processing logic with OpenAI
     # openai.api_key = openai_key
     # weekly_plan = process_goals_with_openai(goals)
