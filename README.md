@@ -2,31 +2,37 @@
 
 ## Introduction
 
-Welcome to Orbitask-API, the innovative tool designed to transform the way you plan your work week and communicate with your team. Orbitask-API simplifies planning and reporting processes, making daily updates both effortless and efficient. This personal project is brought to you by @HlexNC.
+Welcome to Orbitask-API, a groundbreaking tool tailored to redefine your workweek planning and team communication. This API, a creation of @HlexNC, automates and simplifies the process of creating daily updates, making planning and reporting both effortless and efficient.
 
-## Features
+## Key Features
 
-- **Weekly Planning API**: Integrate weekly task planning into your applications with our API.
-- **Customizable Daily Plan Endpoints**: Tailor daily plans through API endpoints to fit specific needs.
-- **Automated BOD/EOD Updates**: Our API generates Beginning of Day (BOD) and End of Day (EOD) updates based on user plans.
-- **Adaptive Scheduling Functionality**: Adjusts to varied work hours, days of the week, and job positions.
-- **Concise Reporting Outputs**: Provides precise and concise reports for streamlined communication.
-- **User-Friendly API Documentation**: Clear and comprehensive documentation to help you integrate Orbitask-API seamlessly.
+- **Weekly Planning API**: Seamlessly incorporate weekly task planning into your applications.
+- **Customizable Daily Plan Endpoints**: Modify daily plans to suit diverse professional needs.
+- **Automated BOD/EOD Updates**: Generate Beginning of Day and End of Day updates tailored to user-specific plans.
+- **Adaptive Scheduling**: Flexibly aligns with various work hours, days, and job positions.
+- **Precision in Reporting**: Delivers accurate and succinct reports to enhance communication efficiency.
+- **User-Centric Documentation**: Access comprehensive and user-friendly documentation for easy integration.
 
-## Getting Started
+## Quick Start Guide
 
-1. **API Registration**: Register for an API key to start using Orbitask-API.
-2. **Set Your Weekly Goals**: Use the API to input weekly objectives.
-3. **Customize Plans via API**: Edit the auto-generated plan outlines through our endpoints.
-4. **Retrieve Your BOD/EOD Updates**: Use the API to get your automated updates.
-5. **Implement In Your Workflow**: Incorporate the API into your application or workflow for optimal planning.
+1. **API Registration**: Sign up to receive your unique API key for Orbitask-API access.
+2. **Define Weekly Goals**: Input your weekly objectives using our intuitive API interface.
+3. **Plan Customization**: Tailor the generated plans via our endpoints to match your specific requirements.
+4. **Access BOD/EOD Updates**: Retrieve timely and relevant daily updates through the API.
+5. **Workflow Integration**: Seamlessly embed Orbitask-API into your existing applications or workflows.
 
-## Usage Guidelines
+## How To Use
 
-- Utilize the API to update weekly goals at the start of each week.
-- Regularly interact with the API to modify daily plans as needed.
-- Leverage the generated BOD/EOD updates for effective communication in your application.
+For a detailed guide on setting up, using the API, and technical details, please refer to the [Orbitask-API Wiki](https://github.com/HlexNC/Orbitask-API/wiki/Orbitask-API-Wiki).
+
+- **Weekly Updates**: Start each week by updating your goals through the API for optimal planning.
+- **Plan Adjustments**: Regularly modify your daily plans through the API to keep them current and relevant.
+- **Communication Enhancement**: Utilize the BOD/EOD updates for streamlined and effective team communication.
+
+## Explore More
+
+Delve deeper into Orbitask-API's capabilities, technical setup, and advanced features by visiting our comprehensive [Wiki](https://github.com/HlexNC/Orbitask-API/wiki/Orbitask-API-Wiki). Here, you'll find all the technical resources, setup guides, and usage examples you need to fully leverage Orbitask-API in your projects.
 
 ---
 
-Thank you for exploring Orbitask-API - where planning meets precision! 🌟
+Orbitask-API: Precision and simplicity in work planning and reporting, delivered with innovative technology. 🌟
