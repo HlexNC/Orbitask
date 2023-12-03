@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, abort
 
 app = Flask(__name__)
 
@@ -6,22 +6,26 @@ app = Flask(__name__)
 def weekly_planning():
     # Extract data from request
     data = request.json
-    user_id = data.get('user_id')
+    if not data or 'openai_key' not in data or 'goals' not in data:
+        abort(400, description="Missing 'openai_key' or 'goals' in request data")
+
+    openai_key = data.get('openai_key')
     goals = data.get('goals')
 
-    print(user_id and goals)
+    # TODO: Set OpenAI key and implement goal processing logic with OpenAI
+    # openai.api_key = openai_key
+    # weekly_plan = process_goals_with_openai(goals)
 
-    # Placeholder for processing logic
-    # TODO: Integrate with GPT Assistant API and process data
+    # Mock response (TODO replace with actual logic)
+    weekly_plan = {
+        "Monday": ["Task 1", "Task 2"],
+        "Tuesday": ["Task 3"]
+        # ... other days
+    }
 
-    # Mock response (replace with actual logic)
     response = {
         "status": "success",
-        "weekly_plan": {
-            "Monday": ["Task 1", "Task 2"],
-            "Tuesday": ["Task 3"]
-            # ... other days
-        }
+        "weekly_plan": weekly_plan
     }
 
     return jsonify(response)
