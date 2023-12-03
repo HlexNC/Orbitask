@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, abort
 
 app = Flask(__name__)
 
+
 @app.route('/api/weekly-planning', methods=['POST'])
 def weekly_planning():
     # Extract data from request
@@ -16,19 +17,19 @@ def weekly_planning():
     # openai.api_key = openai_key
     # weekly_plan = process_goals_with_openai(goals)
 
-    # Mock response (TODO replace with actual logic)
-    weekly_plan = {
-        "Monday": ["Task 1", "Task 2"],
-        "Tuesday": ["Task 3"]
-        # ... other days
-    }
-
     response = {
         "status": "success",
-        "weekly_plan": weekly_plan
+        "weekly_plan": {
+            "Monday": ["Draft initial project report sections"],
+            "Tuesday": ["Attend team meeting", "Consolidate meeting notes"],
+            "Wednesday": ["Review client feedback", "Adjust report based on feedback"],
+            "Thursday": ["Finalize project report"],
+            "Friday": ["Submit report", "Prepare for next week's tasks"]
+        }
     }
 
     return jsonify(response)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
